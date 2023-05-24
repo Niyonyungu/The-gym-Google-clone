@@ -1,0 +1,241 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.54);
+  outline: none;
+
+  
+}
+
+body a:hover {
+    text-decoration: underline;
+  }
+
+
+i {
+  font-size: 1.3rem;
+}
+
+i,
+img,
+button {
+  cursor: pointer;
+}
+.appsIcon{
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+   
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+.profile{
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 30px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+}
+.google {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google a {
+    color: rgba(0, 0, 0, 0.871);
+    font-size: 13px;
+    margin-right: 15px;
+    line-height: 24px;
+}
+
+.google a:hover {
+    opacity: 0.85;
+  }
+
+
+.google i, img {
+  vertical-align: middle;
+}
+
+.google-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .google-body  form {
+    width: 584px;
+    margin: 25px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .google-body img {
+    width: 272px;
+    height: 92px;
+    display: block;
+  }
+
+
+
+.search {
+            width: 100%;
+            position: relative;
+            display: grid;
+          
+           
+        }    
+
+.ssss{
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 9px;
+  cursor: pointer;
+  margin-right: 2px;
+  width: 26px;
+  height: 26px;
+ 
+}
+
+.sear{
+  position: absolute;
+  cursor: pointer;
+  width: 24px;
+  margin-left: 520px;
+  margin-top: 10px;
+  
+  
+}
+.cam{
+  position: absolute;
+  cursor: pointer;
+  width: 24px;
+  margin-left: 550px;
+  margin-top: 10px;
+  
+
+}
+
+input {
+            width: 100%;
+            padding: 0.8em 3em;
+            border-radius: 30px;
+            outline: none;
+            border: 1px solid #e6e5e5;
+            transition: all 0.3s ease;
+            background-color: transparent;
+            color: rgba(0, 0, 0, 0.871);
+            font-size: 16px;
+            word-wrap: break-word;
+        }
+        input:hover {
+            box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.1);
+            border-color: transparent;
+          }
+  .google-body {
+    flex-direction: column;
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    
+    button {
+        border-radius: 4px;
+        border: 1px solid transparent;
+        background-color:  #f1f1f1;
+        color: rgba(0, 0, 0, 0.54);
+        padding: 0 16px;
+        margin: 11px 4px;
+        min-width: 54px;
+        height: 36px;
+        outline: none;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 14px;
+        line-height: 24px;
+        display: inline-block;
+    }
+    
+    button:hover {
+        color: rgba(0, 0, 0, 0.871);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+        opacity: 0.85;
+        border-color: #c6c6c6;
+      }
+    .buttons {
+      padding-top: 18px;
+       
+      }
+    
+
+    .languages {
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: small;
+      margin: -10px 0 20px 0;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+      .language-type a {
+        
+          color: #1a2bca;
+          padding: 0 5px;
+      }
+
+  .google-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    text-transform: capitalize;
+
+    }
+ 
+.google-footer a {
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 27px;
+  }
+
+.google-footer hr {
+  color: #f1f1f13a;
+}
+.footer-down {
+    display: grid;
+    grid-template-areas: "bbbb bbbb bbbb aaaa";
+    gap: 170px;
+    
+   
+}
+ .footer-down-right {
+    grid-area: aaaa ;
+    
+  }
+
